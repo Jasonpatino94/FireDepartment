@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+
+html, body{
+  /* background-image: url("https://images.unsplash.com/photo-1602410086232-0cdfb78b434f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+  background-image: transparent no-repeat center;
+  background-size: cover; */
+ height: 100%;
+ width: 100%;
+ background-color: gray;
+ font-family:'Didact Gothic';
+}
+
+#mainContainer{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+.cont{
+  width: 100%;
+}
+  
+.upper{
+  background-image: url("https://images.unsplash.com/photo-1602410086232-0cdfb78b434f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+  background-image: no-repeat center;
+  background-size: cover;
+  height:50%;
+
+  display: flex;
+}
+
+.boxes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.donateTypes{
+  background-color: white;
+  width: 25%;
+  position: relative;
+  bottom: 200px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.left{
+ background: white; 
+  position: relative;
+  bottom: 150px;
+  width: 300px;
+  height: 350px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.info{
+  border-radius: 10px;
+  background-color: white;
+  width: 300px;
+  height: 350px;
+  font-size: 30px;
+  position: relative;
+  bottom: 150px;
+  text-align: center;
+}
+
+.lower{
+  /* background-color: gray; */
+  height:50%;
+}
+
+
+#footerInfo {
+    display: flex;
+    justify-content: space-around;
+    color: yellow;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border-top: 1px solid
+    
+
+        /* Height of the footer */
+    /* background-color: darkGray; */
+}
+
+.leftFooter {
+    margin: auto;
+    width: 33%;
+    padding-left: 150px;
+}
+
+.middleFooter {
+    margin: auto;
+    width: 33%;
+    text-align: center;
+    border-right: 1px solid;
+    border-left: 1px solid;
+
+}
+
+.rightFooter {
+    text-align: center;
+    /* margin: auto; */
+    width: 33%;
+}
+
+h1{
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 70px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+

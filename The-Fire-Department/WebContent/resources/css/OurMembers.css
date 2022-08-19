@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+html, body{
+    background-image: url("https://t4.ftcdn.net/jpg/02/77/92/03/240_F_277920356_TSvF9TgoJpSxn19CVIZwIY0aTbtizUzI.jpg");
+    background-image: transparent no-repeat center;
+    background-size: cover;
+    color: white;
+    font-family:'Didact Gothic';
+}
+
+.table{
+ color: white;   
+}
+
+tr td:last-child{
+    width:10%;
+}
+
+tr td:nth-child(3){
+    width: 50%;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+}
+
+.edit{
+    color: red;
+}
+
+.delete{
+    color: red;
+}
+
+ul.list{
+	list-style-type: none;
+}

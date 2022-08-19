@@ -1,0 +1,152 @@
+@charset "ISO-8859-1";
+
+html,
+body {
+  background-image: url('https://cdn.arstechnica.net/wp-content/uploads/2018/08/getty-firefighter-800x540.jpg');
+  background-image: transparent no-repeat center;
+  background-size: cover;
+  font-family:'Didact Gothic';
+}
+#mainContainer{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+.secondContainer{
+
+}
+.container{
+  align-items: center;
+  width: 100%;
+}
+
+.row{
+  width: 100%;
+}
+.col{
+  flex: 0;
+}
+
+
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+p.info{
+    width: 75%;
+    margin: auto;
+}
+
+
+
+.information{
+    margin-bottom: 25px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Akronim);
+
+
+.fire {
+  margin: 10px auto;
+  width: 80%;
+  max-width: 1000px;
+  height: 200px;
+
+  background-position: center center;
+  background-size: 1000px 200px;
+  border-radius: 10px;
+  font-family: 'Akronim';
+  overflow: hidden;
+    text-align: center;
+  vertical-align: middle;
+
+}
+.fire:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.Blazing {
+  display: inline-block;
+  margin: 0;
+
+    color: rgb(255, 115, 0);
+    font-size: 120px;
+  line-height: 50px;
+  min-width: 50px;
+  outline: none;
+  vertical-align: middle;
+    
+  text-shadow:
+        0 3px 20px red,
+        0 0 20px red,
+    0 0 10px orange,
+    4px -5px 6px yellow,
+    -4px -10px 10px yellow,
+    0 -10px 30px yellow;
+  animation: 2s Blazing infinite alternate linear;
+}
+
+@keyframes Blazing {
+  0%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+    0 0 10px orange,
+    0 0 0 yellow,
+    0 0 5px yellow,
+    -2px -5px 5px yellow,
+    4px -10px 10px yellow; }
+  25%   { text-shadow: 0 3px 20px red, 0 0 30px red,
+    0 0 20px orange,
+    0 0 5px yellow,
+    -2px -5px 5px yellow,
+    3px -10px 10px yellow,
+    -4px -15px 20px yellow; }
+  50%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+    0 -5px 10px orange,
+    -2px -5px 5px yellow,
+    3px -10px 10px yellow,
+    -4px -15px 20px yellow,
+    2px -20px 30px rgba(255,255,0,0.5); }
+  75%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+    0 -5px 10px orange,
+    3px -5px 5px yellow,
+    -4px -10px 10px yellow,
+    2px -20px 30px rgba(255,255,0,0.5),
+    0px -25px 40px rgba(255,255,0,0)}
+  100%   { text-shadow: 0 3px 20px red, 0 0 20px red,
+    0 0 10px orange,
+    0 0 0 yellow,
+    0 0 5px yellow,
+    -2px -5px 5px yellow,
+    4px -10px 10px yellow; }
+}
+
+@media (max-width: 767px) {
+
+  /* ... */
+
+  .top-content .carousel-control-prev,
+  .top-content .carousel-control-next {
+    display: none;
+  }
+
+  .top-content .carousel-indicators li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* ... */
+
+}

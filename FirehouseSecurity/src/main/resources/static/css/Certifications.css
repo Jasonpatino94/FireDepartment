@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+html,body{
+     font-family:'Didact Gothic';
+    background-image: url("https://www.rd.com/wp-content/uploads/2018/08/19-Things-Firefighters-Wish-You-Knew-5.jpg?resize=700,466");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainContainer{
+    display: flex;
+    text-align: center;
+}
+
+.container{
+        text-align: -webkit-center;
+}
+
+.row{
+    padding-top: 10px;
+}
+
+h1{
+    background-color: white;
+    width:fit-content;
+    color:rgb(0, 0, 0);
+    font-size: 52px;
+    font-weight: bolder;
+    text-align: center;
+}
+
